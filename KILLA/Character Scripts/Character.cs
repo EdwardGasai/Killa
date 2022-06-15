@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Character : MonoBehaviour
+{
+
+    public CharacterData data;
+    public static Character current;
+
+    void Start()
+    {
+        
+        current = this;
+    }
+
+}
